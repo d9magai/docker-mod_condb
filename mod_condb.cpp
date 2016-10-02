@@ -5,7 +5,9 @@
 #include <apr_lib.h>
 #include <apr_strings.h>
 #include <apr_dbd.h>
-#include "mod_dbd.h"
+extern "C"{
+#include <mod_dbd.h>
+}
 #include <string>
 #include <sstream>
 

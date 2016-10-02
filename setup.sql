@@ -1,0 +1,6 @@
+CREATE DATABASE testdb DEFAULT CHARACTER SET utf8;
+USE testdb;
+CREATE TABLE test (id INTEGER AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255), body VARCHAR(255)) DEFAULT CHARSET=utf8;
+INSERT INTO test(title, body) VALUES('aaa', 'bbb');
+INSERT INTO test(title, body) VALUES('hoge', 'fuga');
+

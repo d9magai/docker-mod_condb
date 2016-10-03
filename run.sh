@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eu
+set -eux
 cd `dirname $0`
 
 sudo docker run --name mysqld -e MYSQL_ROOT_PASSWORD=password -d -p 13306:3306 mysql
